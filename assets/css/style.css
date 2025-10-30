@@ -6,3 +6,55 @@
 body {
     font-size: 1em;
 }
+
+header{
+    background-color: #3A4D28;
+}
+
+nav{
+    background-color: #678a47;
+}
+
+footer{
+    background-color: #678a47;
+}
+
+aside{
+    background-color: #678a47;
+}
+
+h1 {
+    color: #c4d7b2;;
+}
+
+h2, h3 {
+    color: #678a47;
+}
+
+a {
+    color: #c4d7b2;
+}
+a:hover {
+    color: #DBE7D0;
+}
+a:visited {
+    color: #F2F6EE;
+}
+
+section {
+    background-color: #FAFBF8;
+}
+
+p {
+    color: #0D1109;
+}
+
+form {
+    background-color: #c5b2d7;
+    color: #3A4D28;
+}
+
+table {
+    background-color: #FAFBF8;
+    color: #0D1109;
+}
