@@ -13,26 +13,33 @@ header{
 
 nav{
     background-color: #678a47;
+    text-align: center;
 }
 
 footer{
     background-color: #678a47;
+    text-align: center;
 }
 
 aside{
     background-color: #678a47;
+    text-align: center;
 }
 
 h1 {
-    color: #c4d7b2;;
+    color: #c4d7b2;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 h2, h3 {
     color: #678a47;
+    letter-spacing: 1px;
 }
 
 a {
     color: #c4d7b2;
+    text-decoration: none;
 }
 a:hover {
     color: #DBE7D0;
@@ -43,18 +50,23 @@ a:visited {
 
 section {
     background-color: #FAFBF8;
+    text-align: justify;
 }
 
 p {
     color: #0D1109;
+    text-indent: 20px;
+    line-height: 1.5em;
 }
 
 form {
     background-color: #c5b2d7;
     color: #3A4D28;
+    text-align: center;
 }
 
 table {
     background-color: #FAFBF8;
     color: #0D1109;
+    text-align: center;
 }
