@@ -52,7 +52,7 @@ p {
 header {
     background-color: #3A4D28;
     text-align: center;
-    padding: 30px 0px 20px 0px;
+    padding: 50px 0px 20px 0px;
 }
 
 
@@ -64,15 +64,17 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
+    height: auto;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 10px 0px;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 20px;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -94,13 +96,56 @@ nav ul li a:active {
     color: #c5b2d7;
 }
 
+/**** Sección principal ****/
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+section {
+    display:inline-block;
+    box-sizing: border-box;
+    width: 90%;
+    background-color: #FAFBF8;
+    text-align: justify;
+    padding: 20px;
+}
+
+section article {
+    margin: 10px 0px;
+}
+
+section article p a:link {
+    color: #3A4D28;
+}
+
+section article p a:visited {
+    color: #95B875;
+}
+
+section article p a:hover {
+    color: #678a47;
+    text-decoration: underline;
+}
+
+section article p a:active {
+    color: #c5b2d7;
+}
+
 
 /**** Aside ****/
 
 aside {
+    float: right;
+    box-sizing: border-box;
+    width: 10%;
+    min-width: 150px;
     background-color: #678a47;
     text-align: center;
-    padding: 1% 0%;
+    padding: 5% 0;
 }
 
 aside ul {
@@ -110,7 +155,7 @@ aside ul {
 }
 
 aside ul li {
-    margin: 10px 0px;
+    margin: 20px 0px;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -133,41 +178,18 @@ aside ul li a:active {
 }
 
 
-/**** Sección principal ****/
-
-main {
-    width: 100%;
-}
-
-section {
-    background-color: #FAFBF8;
-    text-align: justify;
-}
-
-section article p a:link {
-    color: #3A4D28;
-}
-
-section article p a:visited {
-    color: #95B875;
-}
-
-section article p a:hover {
-    color: #678a47;
-    text-decoration: underline;
-}
-
-section article p a:active {
-    color: #c5b2d7;
-}
-
-
 /**** Pie de página ****/
 
 footer {
+    clear: both;
     background-color: #678a47;
     text-align: center;
     font-family: serif;
+    padding: 20px;
+}
+
+footer * {
+    margin: 5px;
 }
 
 footer a:link {
@@ -196,7 +218,8 @@ form {
     text-align: center;
     font-weight: bold;
     width: 50%;
-    min-width: 300px;
+    min-width: 350px;
+    max-width: 600px;
     padding: 20px;
     margin: auto;
     border: #FAFBF8 5px solid;
