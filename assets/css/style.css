@@ -33,6 +33,10 @@ footer{
     font-family: serif;
 }
 
+main{
+width: 100%;
+}
+
 aside{
     background-color: #678a47;
     text-align: center;
@@ -113,4 +117,19 @@ table {
     color: #0D1109;
     text-align: center;
     font-family: serif;
+    caption-side: bottom;
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: #c5b2d7 5px solid;
+    margin: 20px 0px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+caption {
+    font-style: italic;
+    margin-top: 5px;
 }
